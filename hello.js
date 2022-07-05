@@ -15,11 +15,11 @@
 
 var max, num;
 max = 0;
-num =prompt("新しい数値をいれてください。0にすると終了します");
+num =prompt("新しい数値をいれてください。 0 にすると終了します");
 while (num != 0){
     if(parseInt(num) > max) {
        max = num;
     }
-    num =prompt("新しい数値をいれてください。0にすると終了します");
+    num =prompt("新しい数値をいれてください。 0 にすると終了します");
 }
 alert("最大値は" + max);
